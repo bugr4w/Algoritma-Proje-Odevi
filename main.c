@@ -36,7 +36,7 @@ int main(void) {
         printf("no matching");
         return 0;
     }
-    printf("did you mean?%s (%f)",x.bestword,max);
+    printf("did you mean?%s (%.2f)",x.bestword,max);
     return 0;
 }
 
