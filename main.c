@@ -44,7 +44,7 @@ int main(void) {
 float BenzerlikOranı(char word[],char myword[]) {
     float eslesenharf=0;
     for(int i=0;i<strlen(myword);i++) {
-        if (myword[i]==word[i]) {
+        if (tolower(myword[i])==word[i]) {
             eslesenharf++;
         }
     }
