@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+include <ctype.h>
 
 float BenzerlikOranı(char word[],char myword[]);
 struct bestwords {
