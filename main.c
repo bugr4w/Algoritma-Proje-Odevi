@@ -54,7 +54,7 @@ float BenzerlikOranı(char word[],char myword[]) {
             sinir=strlen(myword);
         }
     float eslesenharf=0;
-    for(int i=0;i<strlen(myword);i++) {
+    for(int i=0;i<sinir;i++) {
         /*c de büyük küçük harfi farkı vardır
          o yüzden hepsini küçük harfe çevirmeliyiz*/
         if (tolower(myword[i])==tolower(word[i])) {
