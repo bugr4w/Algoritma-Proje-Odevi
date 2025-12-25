@@ -47,6 +47,12 @@ int main(void) {
 
 
 float BenzerlikOranı(char word[],char myword[]) {
+    int sinir;
+        if (strlen(word)<strlen(myword)) {
+            sinir=strlen(word);
+        }else {
+            sinir=strlen(myword);
+        }
     float eslesenharf=0;
     for(int i=0;i<strlen(myword);i++) {
         /*c de büyük küçük harfi farkı vardır
